@@ -24,7 +24,12 @@
 #ArcoLinuxB = you add or delete the packages you want on the iso
 
 sudo pacman -Syyyu --noconfirm
-sudo pacman -Sy firefox --noconfirm
+sudo pacman -S --noconfirm --needed firefox
+sudo pacman -S --noconfirm --needed flameshot
+sudo pacman -S --noconfirm --needed discord
+sudo pacman -S --noconfirm --needed dropbox
+sudo pacman -S --noconfirm --needed spotify
+sudo pacman -S --noconfirm --needed telegram-desktop
 
 echo "################################################################"
 echo "####              Your Software is Up-to-date             ######"
