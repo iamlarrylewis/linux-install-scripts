@@ -1,0 +1,22 @@
+#!/bin/bash
+set -e
+##################################################################################################################
+# Author	:	Larry Lewis
+# Website	:	https://www.EminentConcepts.com
+# Website	:	https://www.arcolinux.info
+# Website	:	https://www.arcolinux.com
+# Website	:	https://www.arcolinuxd.com
+# Website	:	https://www.arcolinuxb.com
+# Website	:	https://www.arcolinuxiso.com
+# Website	:	https://www.arcolinuxforum.com
+##################################################################################################################
+#
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
+#
+##################################################################################################################
+
+
+
+sudo pacman -Syyu --noconfirm git
+sudo mkdir github
+sudo cd github
