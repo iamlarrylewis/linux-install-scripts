@@ -23,6 +23,12 @@
 #ArcoLinuxD = you run the scripts you want (including or excluding software)
 #ArcoLinuxB = you add or delete the packages you want on the iso
 
+sudo pacman -Sy git
+sudo mkdir github
+sudo cd github
+chmod =x ~/github*/*
+sudo git clone https://github.com/iamlarrylewis/linux-install-scripts.git
+cd update=files
 sudo pacman -Syyyu --noconfirm
 sudo pacman -S --noconfirm --needed firefox
 sudo pacman -S --noconfirm --needed flameshot
