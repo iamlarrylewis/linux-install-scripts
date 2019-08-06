@@ -1,0 +1,31 @@
+#!/bin/bash
+#set -e
+##################################################################################################################
+# Author	:	Erik Dubois
+# Website	:	https://www.erikdubois.be
+# Website	:	https://www.arcolinux.info
+# Website	:	https://www.arcolinux.com
+# Website	:	https://www.arcolinuxd.com
+# Website	:	https://www.arcolinuxb.com
+# Website	:	https://www.arcolinuxiso.com
+# Website	:	https://www.arcolinuxforum.com
+##################################################################################################################
+#
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
+#
+##################################################################################################################
+
+#This is just an example
+#add anything to lhe list or delete applications here to keep them
+#you need to make your own script you can run after an ArcoLinux installation
+
+#once you get comfortable with linux & scripting take a look at
+#ArcoLinuxD = you run the scripts you want (including or excluding software)
+#ArcoLinuxB = you add or delete the packages you want on the iso
+
+sudo pacman -Syyyu --noconfirm
+sudo pacman -Sy firefox --noconfirm
+
+echo "################################################################"
+echo "####              Your Software is Up-to-date             ######"
+echo "################################################################"
